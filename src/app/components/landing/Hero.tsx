@@ -12,7 +12,7 @@ const Hero = () => {
                 </Col>
                 <Col md={3} className="d-flex flex-column justify-content-center">
                     <Row className="justify-content-center">
-                        <span id={"mobile-title"}>Are you hungry yet?</span>
+                        <span id={"mobile-title"}>Lunch time already?</span>
                     </Row>
                     <Row className="justify-content-center mt-5">
                         <span id={"mobile-text"}>Start now and create your company lunch order in a whole new way!</span>
