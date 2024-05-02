@@ -1,0 +1,17 @@
+Oimport Image from 'next/image'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './globals.css'
+import Navigation from "@/app/components/Navigation";
+import MobileApp from "../public/mobileapp.png";
+
+export default function Home() {
+    return (
+        <>
+            <Navigation/>
+            <div className="container mt-3">
+                <Image src={MobileApp} alt="Mobile App" />
+            </div>
+            <h1 className={"text-center pt-5"}>Woooo early website template!</h1>
+        </>
+    );
+}
