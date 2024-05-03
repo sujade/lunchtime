@@ -8,7 +8,7 @@ const Footer = () => {
         <>
                 <Row>
                     <div className="footer text-center">
-                        <span>2024 Lunchtime</span>
+                        <span>2024 Lunchbreak</span>
                     </div>
                 </Row>
                 <Row>

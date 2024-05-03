@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col, Row} from "react-bootstrap";
+import {Button, Col, Row} from "react-bootstrap";
 import Image from "next/image";
 
 const Hero = () => {
@@ -16,6 +16,9 @@ const Hero = () => {
                     </Row>
                     <Row className="justify-content-center mt-5">
                         <span id={"mobile-text"}>Start now and create your company lunch order in a whole new way!</span>
+                    </Row>
+                    <Row className="justify-content-start mt-5 ">
+                        <Button id={"order-button"} variant="danger"  size={"lg"}>ORDER</Button>
                     </Row>
                 </Col>
                 <Col md={3}></Col>

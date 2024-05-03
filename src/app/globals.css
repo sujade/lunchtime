@@ -45,3 +45,15 @@ body {
     text-decoration: none !important;
     color: #E64833 !important;
 }
+
+#order-button {
+    width: 240px;
+    border-radius: 25px;
+    height: 80px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.footer {
+    font-size: 20px;
+}

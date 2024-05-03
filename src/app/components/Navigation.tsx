@@ -9,7 +9,7 @@ function Navigation() {
         <Navbar expand="lg" id="navbar" className="bg-body-tertiary border-bottom border-top border-black border-4">
             <Container>
                 <div className="brand-text">
-                    <Navbar.Brand id={"lunchtime"} href="#home">Lunchtime</Navbar.Brand>
+                    <Navbar.Brand id={"lunchtime"} href="#home">Lunchbreak</Navbar.Brand>
                     <Navbar.Text className={"t"}>Are you hungry yet?</Navbar.Text>
                 </div>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -20,7 +20,7 @@ function Navigation() {
                         <NavDropdown title="About" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">How does it work?</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
-                                About Lunchtime
+                                About Lunchbreak
                             </NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.3">

@@ -6,7 +6,7 @@ import Navigation from "@/app/components/Navigation";
 import Footer from "@/app/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Lunchtime",
+  title: "Lunchbreak",
   description: "Are you hungry yet?",
 };
 
