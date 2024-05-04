@@ -18,7 +18,7 @@ const Hero = () => {
                         <span id={"mobile-text"}>Start now and create your company lunch order in a whole new way!</span>
                     </Row>
                     <Row className="justify-content-start mt-5 ">
-                        <Button id={"order-button"} variant="danger"  size={"lg"}>ORDER</Button>
+                        <Button id={"order-button"} variant="danger" href={"order"} size={"lg"}>ORDER</Button>
                     </Row>
                 </Col>
                 <Col md={3}></Col>
