@@ -6,11 +6,11 @@ const Hero = () => {
     return (
         <div>
             <Row className="mt-5 d-flex justify-content-center text-center">
-                <Col md={3}></Col>
-                <Col md={3}>
+                <Col sm={0} md={3}></Col>
+                <Col sm={12} md={3}>
                     <Image src="/mobileapp.png" width={580} height={993} alt="Mobile App"/>
                 </Col>
-                <Col md={3} className="d-flex flex-column justify-content-center">
+                <Col xs={12} md={3} className="d-flex flex-column justify-content-center">
                     <Row className="justify-content-center">
                         <span id={"mobile-title"}>Lunch time already?</span>
                     </Row>
@@ -21,7 +21,7 @@ const Hero = () => {
                         <Button id={"order-button"} variant="danger" href={"order"} size={"lg"}>ORDER</Button>
                     </Row>
                 </Col>
-                <Col md={3}></Col>
+                <Col sm={0} md={3}></Col>
             </Row>
         </div>
     );
