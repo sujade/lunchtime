@@ -6,7 +6,7 @@ import { FaHeart } from "react-icons/fa";
 const Footer = () => {
     return (
         <>
-                <Row>
+                <Row className={"mt-5"}>
                     <div className="footer text-center">
                         <span>2024 Lunchbreak</span>
                     </div>
